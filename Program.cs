@@ -9,7 +9,7 @@ namespace GDIAlphaBlendRepro
             var bg = new Bitmap(Image.FromFile("background.png"));
 
             var g = Graphics.FromImage(bg);
-            g.DrawImage(new Bitmap(Image.FromFile("layer.png")), 50, 50);
+            g.DrawImage(new Bitmap(Image.FromFile("layer.png")), 304, 312);
 
             bg.Save("result.png");
         }
